@@ -1,6 +1,6 @@
-# Postman-for-Cisco-SD-WAN
+# Postman for Cisco SD-WAN
 
-This public repo contains a [POSTMAN](https://getpostman.com) environment and collection that can be used to interact with the `Cisco SD-WAN powered by Viptela vManage REST API`. The environment is pre-configured to access the [Cisco DevNet Always On Sandbox for SD-WAN](https://sandboxsdwan.cisco.com:8443) fabric. You can edit the variables in the environment to point to your own vManage instance. The collection contains REST API calls to authenticate, get a list of devices that are part of the SD-WAN fabric, device status and counters and interface statistics for all the interfaces in the fabric. Feel free to modify them as you see fit and add more calls to the collection.
+This public repo contains a [POSTMAN](https://getpostman.com) environment and collection that can be used to interact with the `Cisco SD-WAN powered by Viptela vManage REST API`. The environment is pre-configured to access the [Cisco DevNet Always On Sandbox for SD-WAN](https://sandboxsdwan.cisco.com:8443) fabric. You can edit the variables in the environment to point to your own vManage instance. The collection contains REST API calls to authenticate, get a list of devices that are part of the SD-WAN fabric, and get device status, counters, and interface statistics for all the interfaces in the fabric. Feel free to modify them as you see fit and to add more calls to the collection.
 
 # Requirements
 
@@ -10,7 +10,7 @@ The Postman collection and environment will need:
 
 # Setup
 
-If you don't have Postman already installed you can download it from [here](https://getpostman.com). Once you install it you can follow the steps below to import the collection and environment:
+If you don't have Postman already installed, you can download it from [here](https://getpostman.com). Once you install it, you can follow the steps below to import the collection and environment:
 
 ![](https://github.com/ai-devnet/Postman-for-Cisco-SD-WAN/blob/master/postman.png)
 
@@ -20,4 +20,4 @@ If you don't have Postman already installed you can download it from [here](http
 2. Make sure you select the `Cisco-SD-WAN-Environment` environment
 3. Expand the collection and start making REST API calls.
 
-## Note: In case your instance of vManage has a self signed certificate make sure you disable `SSL certificate verification` in Postman's settings.
+## Note: In case your instance of vManage has a self signed certificate, make sure you disable `SSL certificate verification` in Postman's settings.
